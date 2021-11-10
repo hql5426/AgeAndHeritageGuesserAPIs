@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>2 API Interface</title>
+        <link rel = "stylesheet" href = "interface.css"></link>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+     <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+      </ul>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <h4> APIs Used</h4>
+      <p><a href="https://agify.io/">ageify.io</a></p>
+      <p><a href="https://nationalize.io/">nationalize.io</a></p>
+      <p><a href="https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation">worldbank.org</a></p>
+      <p><a href="https://www.countryflags.io/">countryflag.io</a></p>
+    </div>
+    <div class="col-sm-8 text-center"> 
+        <h1>Let Me Guess Your Age and Nationality/Heritage!</h1>
+        </br>
+        <input type = "text" id = "nameBox" placeholder = "First Name"></input>
+        <button id = "submitButton" onclick = "accessNationalizeData()">Guess!</button>
+        </br>
+        </br>
+        <h4 id = "Nationality"></h4>
+        </br>
+        <div id = "imgSpace" class = "imgSpace"></div>
+        </br>
+        <h4 id = "Age"></h4>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <h4> Made by Hayden Long :P</h4>
+      </div>
+      <div class="well">
+        <p><a href = "https://github.com/hql5426/">My Github</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+       <footer class="container-fluid text-center">
+        </footer> 
+    <script src = "script2api.js"></script>
+    </body>
